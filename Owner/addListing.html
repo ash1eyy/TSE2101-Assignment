@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Announcements</title>
+    <title>Add Listings</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,14 +11,18 @@
     <button class="backButton"><</button>
 
     <table align="center">
-        <tr><td align="right">
+        <tr>
+            <td align="right" >
             <label>Resource Title: </label>             
         <td align="left">
-            <input type="text"><br>
-        <tr><td align="right">
-            <label>Resource Type: </label>             
-        <td align="left">
-            <input type="text"><br>
+            <input type="text" class = "rcorners"><br>
+            <tr><td align="right">
+                <label>Resource Type: </label>               
+            <td align="left">
+                <select name="User Type" class = "rcorners">
+                    <option value="tenant">Place</option>
+                    <option value="owner">Item</option>
+                </select><br>
         <tr><td align="right">
             <label>Resource Description: </label>             
         <td align="left">
