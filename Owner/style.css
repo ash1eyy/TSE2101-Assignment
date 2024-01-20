@@ -1,0 +1,85 @@
+body {
+    font-family: Arial;
+    background-color: #d3d3d3;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+label {
+    color: black;
+    text-align: center;
+}
+
+.dashboardButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backButton {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 2em;
+    margin-left: 3em;
+    margin-top: 3em;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #008CBA;
+    padding: 25px;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.resourceDescriptionInputBox {
+    width: 300px;
+    height: 50px;
+}
+
+#uploadImageButton{
+    text-align: center;
+}
+
+#uploadListingButton{
+    text-align: right;
+}
+
+.reportDescriptionInputBox {
+    width: 300px;
+    height: 50px;
+}
+
+#submitReportButton{
+    text-align: right;
+}
+
+.additionalDetailsInputBox {
+    width: 300px;
+    height: 50px;
+}
+
+#submitRequestButton{
+    text-align: center;
+}
+
+.additionalDetailsInputBox {
+    width: 302px;
+    height: 50px;
+}
