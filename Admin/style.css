@@ -77,6 +77,12 @@ label {
     align-items: right;
 }
 
+#leasingrequestButton{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
 .rcorners {
     border-radius: 25px;
     border: 2px solid #d3d3d3;
@@ -95,12 +101,7 @@ label {
     height: auto;
 }
 
-.button1 {
-    background-color: #008CBA;
-}
-
-/* Blue */
-.button2 {
+.buttonblue {
     background-color: #008CBA;
 }
 
