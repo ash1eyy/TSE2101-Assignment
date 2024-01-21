@@ -1,0 +1,113 @@
+body {
+    font-family: Arial;
+    background-color: #d3d3d3;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+label {
+    color: black;
+    text-align: center;
+}
+
+.dashboardButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backButton {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 2em;
+    margin-left: 3em;
+    margin-top: 3em;
+}
+
+.detailsToEnter {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #008CBA;
+    padding: 25px;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.descriptionInputBox {
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    border: 2px solid #d3d3d3;
+    padding: 10px;
+    /* Adjust padding */
+    width: 200px;
+    align-items: center;
+}
+
+#registerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#uploadListingButton{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+#leasingrequestButton{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.rcorners {
+    border-radius: 25px;
+    border: 2px solid #d3d3d3;
+    padding: 10px;
+    /* Adjust padding */
+    width: 200px;
+    align-items: center;
+}
+
+.roundsquare {
+    border-radius: 25px;
+    background: #e00d0d;
+    
+    background-size: 0px;
+    width: 10px;
+    height: auto;
+}
+
+.buttonblue {
+    background-color: #008CBA;
+}
+
+.table-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px; /* Example of rounding corners */
+}
+  
