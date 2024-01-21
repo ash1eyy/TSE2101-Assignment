@@ -1,0 +1,124 @@
+body {
+    font-family: Arial;
+    background-color: #d3d3d3;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+label {
+    color: black;
+    text-align: center;
+}
+
+.dashboardButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backButton {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 2em;
+    margin-left: 3em;
+    margin-top: 3em;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #008CBA;
+    padding: 25px;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.resourceDescriptionInputBox {
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #d3d3d3;
+    padding: 10px;
+    align-items: center;
+}
+
+#uploadImageButton{
+    text-align: center;
+}
+
+#uploadListingButton{
+    text-align: right;
+}
+
+.reportDescriptionInputBox {
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #d3d3d3;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+#submitReportButton{
+    text-align: right;
+}
+
+.additionalDetailsInputBox {
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #d3d3d3;
+    padding: 10px;
+    align-items: center;
+}
+
+#submitRequestButton{
+    text-align: center;
+}
+
+.additionalDetailsInputBox {
+    width: 302px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #d3d3d3;
+    padding: 10px;
+    align-items: center;
+}
+
+
+.rcorners {
+    border-radius: 25px;
+    border: 2px solid #d3d3d3;
+    padding: 10px;
+    width: 200px;
+    align-items: center;
+}
+
+.roundsquare {
+    border-radius: 25px;
+    background: #e00d0d;
+    
+    background-size: 0px;
+    width: 10px;
+    height: auto;
+}
+
+.buttonblue {
+    background-color: #008CBA;
+}
